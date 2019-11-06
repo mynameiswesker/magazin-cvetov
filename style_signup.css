@@ -1,0 +1,151 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+/*Форма регистрации */
+.escape {
+    color:rgba(17, 119, 0, 1);
+    transition:0.5s;
+}
+
+#form {
+    width:330px;
+    min-height:440px;
+    margin:0 auto;
+    border: 3px solid #117700;
+    margin-top:75px;
+    border-radius: 20px;
+    background: rgba(182,224,38,0.95); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(182,224,38,0.95) 0%, rgba(171,220,40,0.95) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(182,224,38,0.95) 0%,rgba(171,220,40,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(182,224,38,0.95) 0%,rgba(171,220,40,0.95) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6e026', endColorstr='#abdc28',GradientType=0 ); /* IE6-9 */
+    font-family: 'Gabriela', serif;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+#form form p{
+    display:block;
+}
+
+#form form {
+    text-align: center;
+}
+
+#form form .label_text {
+    position:absolute;
+    color: #777777;
+    padding:3px 0px 0px 3px;
+    font-size: 13px;
+}
+
+#form form button {
+    border-radius: 9px;
+    width:140px;
+    height:35px;
+    background: rgb(246,230,180); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(246,230,180,1) 0%, rgba(237,144,23,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
+    border: 1px solid rgb(246,230,180);
+    font-family: 'Gabriela', serif;
+    font-size: 12px;
+    color:#fff;
+    transition:0.5s;
+}
+
+#form form button:hover{
+    cursor:pointer;
+    border-style: inset;
+    background:#ED9017;
+    color: #117700;
+}
+
+#form form .InputBox .label_text{
+    transition:0.5s;
+}
+
+#form form .focus .label_text{
+    transform: translateY(-30px);
+    font-size: 17px;
+    color: #d33ebc;
+}
+
+.adClass{
+    position:relative;
+    background: transparent;
+    z-index: 2;
+}
+/* Создали белый фон для ввода текста внутри инпута(через жопу , но все же */
+.back{
+    width:143px;
+    height:17px;
+    position:absolute;
+    z-index: 1;
+    margin:-20px 0px 0px 94px;
+}
+
+.label_text{
+    z-index: 2;
+}
+
+#form form .plus{
+    color:rgba(17, 119, 0, 0);
+}
+
+.Top_h4{
+    margin:0px;
+    padding:0px;
+    background: honeydew;
+}
+
+/*Конец формы регистрации*/
+
+/*Меню и бэкграунд для фона*/
+
+body {
+    height: 100%;
+    font-family: 'Cuprum', sans-serif;
+    background: url(../pictures/background_3.jpg);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/***********************************************Меню для выхода*****************/
+#menu{
+    position: absolute;
+    top:17%;
+    right:4%;
+    font-family: 'Gabriela', serif;
+}
+#menu .wrapp ul li a{
+    display:block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 15px 20px 15px;
+    margin:0px 0px 15px 0px;
+    background:#B6E026;
+    border-radius: 26px;
+    transition: 0.3s;
+}
+#menu .wrapp ul li a:hover{
+    color:#117700;
+    background: honeydew;
+}
+
+#menu .wrapp ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#menu .wrapp ul li{
+    display: block;
+    list-style-type: none;
+}
+
+
